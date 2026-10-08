@@ -1,3 +1,7 @@
+
+GUYS AND I ALSO CANT PROVIDE THE CHECKPOINTS, that is the .pt checkpoints private, because the GRAC-LM is not suitable for real use, and its validation accuracy is just 5.1%.
+
+
 # GRAC-LM v0.4 — Trained Model Checkpoints
 
 This directory documents the trained checkpoints produced during GRC's independent GRAC-LM v0.4 research.

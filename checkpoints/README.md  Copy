@@ -1,0 +1,56 @@
+# GRAC-LM v0.4 — Model Checkpoints
+
+## Overview
+
+This directory documents the trained model checkpoints produced during GRAC-LM v0.4 research.
+
+The model was independently trained using a custom GPT-style decoder-only Transformer architecture.
+
+**Research status:** Paused after Cell 81 on October 8, 2026.
+
+## Checkpoint Inventory
+
+| Research Phase | Checkpoint Filename |
+|---|---|
+| Phase 4 | `GRAC-LM-v0.4-expanded-best.pt` |
+| Phase 4B | `GRAC-LM-v0.4-phase4b-step300.pt` |
+| Phase 4C | `GRAC-LM-v0.4-phase4c-best.pt` |
+| Phase 4D | `GRAC-LM-v0.4-phase4d-best.pt` |
+| Phase 4D Resume | `GRAC-LM-v0.4-phase4d-resume.pt` |
+
+## Checkpoint Storage
+
+All five checkpoints were verified during Cell 81.
+
+The original checkpoint files are preserved in the project's Google Drive directory:
+
+`GRAC/GRAC-LM-v0.4/`
+
+The model weights are not included in this GitHub repository's initial research archive.
+
+## Model Architecture
+
+- Parameters: approximately 54.7 million
+- Vocabulary size: 8,000
+- Context length: 512 tokens
+- Transformer layers: 10
+- Attention heads: 10
+- Embedding dimension: 640
+
+## Evaluation
+
+The final Phase 4D diagnostic reported:
+
+- Training sample accuracy: 10/120 (8.3%)
+- Held-out validation accuracy: 3/59 (5.1%)
+- QA validation loss: 1.1796
+
+These results demonstrate limited question-answering generalization despite improvements in training objectives.
+
+## Future Development
+
+Checkpoint preservation allows GRC to resume independent language-model research after GRAC Assistant is launched and stabilized.
+
+Future GRAC-LM versions will be documented in this repository.
+
+**GRC AI Programme — Independent Foundation Model Research**

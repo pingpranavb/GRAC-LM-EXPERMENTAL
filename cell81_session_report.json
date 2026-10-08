@@ -1,0 +1,1668 @@
+{
+  "timestamp_utc": "2026-10-08T15:59:06.994342+00:00",
+  "project": "GRAC-LM v0.4",
+  "phase": "4D",
+  "last_completed_cell": 81,
+  "train_diagnostic": {
+    "correct": 10,
+    "total": 120,
+    "by_kind": {
+      "subtraction": {
+        "correct": 4,
+        "total": 52
+      },
+      "addition": {
+        "correct": 3,
+        "total": 48
+      },
+      "capital": {
+        "correct": 2,
+        "total": 4
+      },
+      "definition": {
+        "correct": 1,
+        "total": 6
+      },
+      "multiplication": {
+        "correct": 0,
+        "total": 10
+      }
+    },
+    "top_outputs": [
+      [
+        "1",
+        43
+      ],
+      [
+        "18",
+        23
+      ],
+      [
+        "22",
+        15
+      ],
+      [
+        "21",
+        11
+      ],
+      [
+        "11",
+        9
+      ],
+      [
+        "16",
+        5
+      ],
+      [
+        "13",
+        4
+      ],
+      [
+        "cairo",
+        2
+      ],
+      [
+        "electricity is the difference between objects with mass",
+        1
+      ],
+      [
+        "electricity is the attraction between objects with mass",
+        1
+      ]
+    ],
+    "records": [
+      {
+        "id": "subtract_24_13",
+        "kind": "subtraction",
+        "question": "Subtract 13 from 24.",
+        "expected": "11.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_24_13",
+        "kind": "subtraction",
+        "question": "What is the difference between 24 and 13?",
+        "expected": "11.",
+        "generated": "11.",
+        "correct": true
+      },
+      {
+        "id": "subtract_13_10",
+        "kind": "subtraction",
+        "question": "What is 13 - 10?",
+        "expected": "3.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_13_10",
+        "kind": "subtraction",
+        "question": "Calculate 13 minus 10.",
+        "expected": "3.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "add_14_17",
+        "kind": "addition",
+        "question": "Calculate 14 plus 17.",
+        "expected": "31.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "add_14_17",
+        "kind": "addition",
+        "question": "If you add 14 and 17, what do you get?",
+        "expected": "31.",
+        "generated": "22.",
+        "correct": false
+      },
+      {
+        "id": "add_19_20",
+        "kind": "addition",
+        "question": "Calculate 19 plus 20.",
+        "expected": "39.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_19_20",
+        "kind": "addition",
+        "question": "What is the sum of 19 and 20?",
+        "expected": "39.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_3_6",
+        "kind": "addition",
+        "question": "Calculate 3 plus 6.",
+        "expected": "9.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_3_6",
+        "kind": "addition",
+        "question": "Ignore the number 99. What is 3 + 6?",
+        "expected": "9.",
+        "generated": "16.",
+        "correct": false
+      },
+      {
+        "id": "subtract_25_24",
+        "kind": "subtraction",
+        "question": "What is 25 - 24?",
+        "expected": "1.",
+        "generated": "1.",
+        "correct": true
+      },
+      {
+        "id": "subtract_25_24",
+        "kind": "subtraction",
+        "question": "What is the difference between 25 and 24?",
+        "expected": "1.",
+        "generated": "11.",
+        "correct": false
+      },
+      {
+        "id": "subtract_9_8",
+        "kind": "subtraction",
+        "question": "What is the difference between 9 and 8?",
+        "expected": "1.",
+        "generated": "11.",
+        "correct": false
+      },
+      {
+        "id": "subtract_9_8",
+        "kind": "subtraction",
+        "question": "Calculate 9 minus 8.",
+        "expected": "1.",
+        "generated": "1.",
+        "correct": true
+      },
+      {
+        "id": "add_4_18",
+        "kind": "addition",
+        "question": "If you add 4 and 18, what do you get?",
+        "expected": "22.",
+        "generated": "22.",
+        "correct": true
+      },
+      {
+        "id": "add_4_18",
+        "kind": "addition",
+        "question": "What is the sum of 4 and 18?",
+        "expected": "22.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_8_16",
+        "kind": "addition",
+        "question": "If you add 8 and 16, what do you get?",
+        "expected": "24.",
+        "generated": "22.",
+        "correct": false
+      },
+      {
+        "id": "add_8_16",
+        "kind": "addition",
+        "question": "Calculate 8 plus 16.",
+        "expected": "24.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "subtract_21_13",
+        "kind": "subtraction",
+        "question": "What is 21 - 13?",
+        "expected": "8.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_21_13",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 21 - 13?",
+        "expected": "8.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_21_1",
+        "kind": "subtraction",
+        "question": "Calculate 21 minus 1.",
+        "expected": "20.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_21_1",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 21 - 1?",
+        "expected": "20.",
+        "generated": "11.",
+        "correct": false
+      },
+      {
+        "id": "add_7_9",
+        "kind": "addition",
+        "question": "Calculate 7 plus 9.",
+        "expected": "16.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_7_9",
+        "kind": "addition",
+        "question": "If you add 7 and 9, what do you get?",
+        "expected": "16.",
+        "generated": "22.",
+        "correct": false
+      },
+      {
+        "id": "capital_egypt",
+        "kind": "capital",
+        "question": "What is the capital of Egypt?",
+        "expected": "Cairo.",
+        "generated": "Cairo.",
+        "correct": true
+      },
+      {
+        "id": "capital_egypt",
+        "kind": "capital",
+        "question": "Name the capital city of Egypt.",
+        "expected": "Cairo.",
+        "generated": "Cairo.",
+        "correct": true
+      },
+      {
+        "id": "subtract_17_9",
+        "kind": "subtraction",
+        "question": "Calculate 17 minus 9.",
+        "expected": "8.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_17_9",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 17 - 9?",
+        "expected": "8.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "gravity",
+        "kind": "definition",
+        "question": "Please answer: What is gravity?",
+        "expected": "Gravity is the attraction between objects with mass.",
+        "generated": "Electricity is the difference between objects with mass.",
+        "correct": false
+      },
+      {
+        "id": "gravity",
+        "kind": "definition",
+        "question": "I am studying science and computing. What is gravity?",
+        "expected": "Gravity is the attraction between objects with mass.",
+        "generated": "Electricity is the attraction between objects with mass.",
+        "correct": false
+      },
+      {
+        "id": "add_6_16",
+        "kind": "addition",
+        "question": "What is 6 + 16?",
+        "expected": "22.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "add_6_16",
+        "kind": "addition",
+        "question": "Calculate 6 plus 16.",
+        "expected": "22.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "multiply_8_9",
+        "kind": "multiplication",
+        "question": "What is 8 times 9?",
+        "expected": "72.",
+        "generated": "13.",
+        "correct": false
+      },
+      {
+        "id": "multiply_8_9",
+        "kind": "multiplication",
+        "question": "Multiply 8 by 9.",
+        "expected": "72.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "multiply_4_5",
+        "kind": "multiplication",
+        "question": "Ignore the number 99. What is 4 times 5?",
+        "expected": "20.",
+        "generated": "16.",
+        "correct": false
+      },
+      {
+        "id": "multiply_4_5",
+        "kind": "multiplication",
+        "question": "Calculate 4 multiplied by 5.",
+        "expected": "20.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "subtract_6_5",
+        "kind": "subtraction",
+        "question": "Calculate 6 minus 5.",
+        "expected": "1.",
+        "generated": "1.",
+        "correct": true
+      },
+      {
+        "id": "subtract_6_5",
+        "kind": "subtraction",
+        "question": "What is the difference between 6 and 5?",
+        "expected": "1.",
+        "generated": "11.",
+        "correct": false
+      },
+      {
+        "id": "add_13_20",
+        "kind": "addition",
+        "question": "What is the sum of 13 and 20?",
+        "expected": "33.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_13_20",
+        "kind": "addition",
+        "question": "If you add 13 and 20, what do you get?",
+        "expected": "33.",
+        "generated": "22.",
+        "correct": false
+      },
+      {
+        "id": "subtract_18_10",
+        "kind": "subtraction",
+        "question": "Subtract 10 from 18.",
+        "expected": "8.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_18_10",
+        "kind": "subtraction",
+        "question": "What is 18 - 10?",
+        "expected": "8.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "add_13_17",
+        "kind": "addition",
+        "question": "What is 13 + 17?",
+        "expected": "30.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "add_13_17",
+        "kind": "addition",
+        "question": "What is the sum of 13 and 17?",
+        "expected": "30.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_2_16",
+        "kind": "addition",
+        "question": "Ignore the number 99. What is 2 + 16?",
+        "expected": "18.",
+        "generated": "16.",
+        "correct": false
+      },
+      {
+        "id": "add_2_16",
+        "kind": "addition",
+        "question": "What is 2 + 16?",
+        "expected": "18.",
+        "generated": "16.",
+        "correct": false
+      },
+      {
+        "id": "subtract_23_2",
+        "kind": "subtraction",
+        "question": "Calculate 23 minus 2.",
+        "expected": "21.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_23_2",
+        "kind": "subtraction",
+        "question": "What is 23 - 2?",
+        "expected": "21.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_17_3",
+        "kind": "subtraction",
+        "question": "What is the difference between 17 and 3?",
+        "expected": "14.",
+        "generated": "11.",
+        "correct": false
+      },
+      {
+        "id": "subtract_17_3",
+        "kind": "subtraction",
+        "question": "What is 17 - 3?",
+        "expected": "14.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "add_12_14",
+        "kind": "addition",
+        "question": "If you add 12 and 14, what do you get?",
+        "expected": "26.",
+        "generated": "22.",
+        "correct": false
+      },
+      {
+        "id": "add_12_14",
+        "kind": "addition",
+        "question": "What is 12 + 14?",
+        "expected": "26.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "subtract_25_1",
+        "kind": "subtraction",
+        "question": "Calculate 25 minus 1.",
+        "expected": "24.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_25_1",
+        "kind": "subtraction",
+        "question": "What is 25 - 1?",
+        "expected": "24.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "capital_norway",
+        "kind": "capital",
+        "question": "Which city is the capital of Norway?",
+        "expected": "Oslo.",
+        "generated": "Buen.",
+        "correct": false
+      },
+      {
+        "id": "capital_norway",
+        "kind": "capital",
+        "question": "Name the capital city of Norway.",
+        "expected": "Oslo.",
+        "generated": "Buenok.",
+        "correct": false
+      },
+      {
+        "id": "add_9_15",
+        "kind": "addition",
+        "question": "Calculate 9 plus 15.",
+        "expected": "24.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "add_9_15",
+        "kind": "addition",
+        "question": "If you add 9 and 15, what do you get?",
+        "expected": "24.",
+        "generated": "22.",
+        "correct": false
+      },
+      {
+        "id": "subtract_23_12",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 23 - 12?",
+        "expected": "11.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_23_12",
+        "kind": "subtraction",
+        "question": "Calculate 23 minus 12.",
+        "expected": "11.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "add_16_17",
+        "kind": "addition",
+        "question": "Calculate 16 plus 17.",
+        "expected": "33.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "add_16_17",
+        "kind": "addition",
+        "question": "If you add 16 and 17, what do you get?",
+        "expected": "33.",
+        "generated": "22.",
+        "correct": false
+      },
+      {
+        "id": "add_15_20",
+        "kind": "addition",
+        "question": "What is 15 + 20?",
+        "expected": "35.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_15_20",
+        "kind": "addition",
+        "question": "What is the sum of 15 and 20?",
+        "expected": "35.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "subtract_6_4",
+        "kind": "subtraction",
+        "question": "What is the difference between 6 and 4?",
+        "expected": "2.",
+        "generated": "11.",
+        "correct": false
+      },
+      {
+        "id": "subtract_6_4",
+        "kind": "subtraction",
+        "question": "Subtract 4 from 6.",
+        "expected": "2.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_14_8",
+        "kind": "subtraction",
+        "question": "What is the difference between 14 and 8?",
+        "expected": "6.",
+        "generated": "11.",
+        "correct": false
+      },
+      {
+        "id": "subtract_14_8",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 14 - 8?",
+        "expected": "6.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "add_4_15",
+        "kind": "addition",
+        "question": "Ignore the number 99. What is 4 + 15?",
+        "expected": "19.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_4_15",
+        "kind": "addition",
+        "question": "What is 4 + 15?",
+        "expected": "19.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "subtract_10_4",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 10 - 4?",
+        "expected": "6.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_10_4",
+        "kind": "subtraction",
+        "question": "Calculate 10 minus 4.",
+        "expected": "6.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_6_3",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 6 - 3?",
+        "expected": "3.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_6_3",
+        "kind": "subtraction",
+        "question": "Calculate 6 minus 3.",
+        "expected": "3.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "cpu",
+        "kind": "definition",
+        "question": "Give a short answer. What does CPU stand for?",
+        "expected": "Central Processing Unit.",
+        "generated": "Central Processing Unit.",
+        "correct": true
+      },
+      {
+        "id": "cpu",
+        "kind": "definition",
+        "question": "Please answer: What does CPU stand for?",
+        "expected": "Central Processing Unit.",
+        "generated": "Central Please answer.",
+        "correct": false
+      },
+      {
+        "id": "subtract_23_8",
+        "kind": "subtraction",
+        "question": "What is 23 - 8?",
+        "expected": "15.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_23_8",
+        "kind": "subtraction",
+        "question": "Calculate 23 minus 8.",
+        "expected": "15.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "add_3_19",
+        "kind": "addition",
+        "question": "Ignore the number 99. What is 3 + 19?",
+        "expected": "22.",
+        "generated": "16.",
+        "correct": false
+      },
+      {
+        "id": "add_3_19",
+        "kind": "addition",
+        "question": "If you add 3 and 19, what do you get?",
+        "expected": "22.",
+        "generated": "22.",
+        "correct": true
+      },
+      {
+        "id": "subtract_22_11",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 22 - 11?",
+        "expected": "11.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_22_11",
+        "kind": "subtraction",
+        "question": "Calculate 22 minus 11.",
+        "expected": "11.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "multiply_2_6",
+        "kind": "multiplication",
+        "question": "Multiply 2 by 6.",
+        "expected": "12.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "multiply_2_6",
+        "kind": "multiplication",
+        "question": "Calculate 2 multiplied by 6.",
+        "expected": "12.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_14_19",
+        "kind": "addition",
+        "question": "What is 14 + 19?",
+        "expected": "33.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "add_14_19",
+        "kind": "addition",
+        "question": "If you add 14 and 19, what do you get?",
+        "expected": "33.",
+        "generated": "22.",
+        "correct": false
+      },
+      {
+        "id": "subtract_25_14",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 25 - 14?",
+        "expected": "11.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_25_14",
+        "kind": "subtraction",
+        "question": "What is 25 - 14?",
+        "expected": "11.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "add_12_16",
+        "kind": "addition",
+        "question": "Ignore the number 99. What is 12 + 16?",
+        "expected": "28.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_12_16",
+        "kind": "addition",
+        "question": "What is the sum of 12 and 16?",
+        "expected": "28.",
+        "generated": "13.",
+        "correct": false
+      },
+      {
+        "id": "multiply_11_12",
+        "kind": "multiplication",
+        "question": "Ignore the number 99. What is 11 times 12?",
+        "expected": "132.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "multiply_11_12",
+        "kind": "multiplication",
+        "question": "What is 11 times 12?",
+        "expected": "132.",
+        "generated": "13.",
+        "correct": false
+      },
+      {
+        "id": "subtract_15_1",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 15 - 1?",
+        "expected": "14.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_15_1",
+        "kind": "subtraction",
+        "question": "What is 15 - 1?",
+        "expected": "14.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "red_planet",
+        "kind": "definition",
+        "question": "Answer the following question clearly: Which planet is known as the Red Planet?",
+        "expected": "Mars.",
+        "generated": "The Red Planet is the existence of a planet.",
+        "correct": false
+      },
+      {
+        "id": "red_planet",
+        "kind": "definition",
+        "question": "Which planet is known as the Red Planet?",
+        "expected": "Mars.",
+        "generated": "The Red Planet is the attraction between two planets.",
+        "correct": false
+      },
+      {
+        "id": "add_12_18",
+        "kind": "addition",
+        "question": "If you add 12 and 18, what do you get?",
+        "expected": "30.",
+        "generated": "22.",
+        "correct": false
+      },
+      {
+        "id": "add_12_18",
+        "kind": "addition",
+        "question": "What is 12 + 18?",
+        "expected": "30.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "subtract_20_11",
+        "kind": "subtraction",
+        "question": "What is 20 - 11?",
+        "expected": "9.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_20_11",
+        "kind": "subtraction",
+        "question": "Calculate 20 minus 11.",
+        "expected": "9.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_21_12",
+        "kind": "subtraction",
+        "question": "Calculate 21 minus 12.",
+        "expected": "9.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_21_12",
+        "kind": "subtraction",
+        "question": "What is the difference between 21 and 12?",
+        "expected": "9.",
+        "generated": "11.",
+        "correct": false
+      },
+      {
+        "id": "subtract_9_3",
+        "kind": "subtraction",
+        "question": "What is 9 - 3?",
+        "expected": "6.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_9_3",
+        "kind": "subtraction",
+        "question": "Calculate 9 minus 3.",
+        "expected": "6.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "multiply_10_12",
+        "kind": "multiplication",
+        "question": "What is the product of 10 and 12?",
+        "expected": "120.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "multiply_10_12",
+        "kind": "multiplication",
+        "question": "What is 10 times 12?",
+        "expected": "120.",
+        "generated": "13.",
+        "correct": false
+      },
+      {
+        "id": "add_3_20",
+        "kind": "addition",
+        "question": "If you add 3 and 20, what do you get?",
+        "expected": "23.",
+        "generated": "22.",
+        "correct": false
+      },
+      {
+        "id": "add_3_20",
+        "kind": "addition",
+        "question": "What is 3 + 20?",
+        "expected": "23.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_5_14",
+        "kind": "addition",
+        "question": "If you add 5 and 14, what do you get?",
+        "expected": "19.",
+        "generated": "22.",
+        "correct": false
+      },
+      {
+        "id": "add_5_14",
+        "kind": "addition",
+        "question": "What is the sum of 5 and 14?",
+        "expected": "19.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_17_19",
+        "kind": "addition",
+        "question": "What is 17 + 19?",
+        "expected": "36.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_17_19",
+        "kind": "addition",
+        "question": "If you add 17 and 19, what do you get?",
+        "expected": "36.",
+        "generated": "22.",
+        "correct": false
+      },
+      {
+        "id": "add_10_12",
+        "kind": "addition",
+        "question": "If you add 10 and 12, what do you get?",
+        "expected": "22.",
+        "generated": "22.",
+        "correct": true
+      },
+      {
+        "id": "add_10_12",
+        "kind": "addition",
+        "question": "Calculate 10 plus 12.",
+        "expected": "22.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "subtract_23_20",
+        "kind": "subtraction",
+        "question": "Subtract 20 from 23.",
+        "expected": "3.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_23_20",
+        "kind": "subtraction",
+        "question": "Calculate 23 minus 20.",
+        "expected": "3.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_19_2",
+        "kind": "subtraction",
+        "question": "What is 19 - 2?",
+        "expected": "17.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_19_2",
+        "kind": "subtraction",
+        "question": "Calculate 19 minus 2.",
+        "expected": "17.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "add_2_4",
+        "kind": "addition",
+        "question": "What is the sum of 2 and 4?",
+        "expected": "6.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_2_4",
+        "kind": "addition",
+        "question": "Calculate 2 plus 4.",
+        "expected": "6.",
+        "generated": "18.",
+        "correct": false
+      }
+    ]
+  },
+  "validation_diagnostic": {
+    "correct": 3,
+    "total": 59,
+    "by_kind": {
+      "subtraction": {
+        "correct": 2,
+        "total": 33
+      },
+      "multiplication": {
+        "correct": 0,
+        "total": 8
+      },
+      "addition": {
+        "correct": 0,
+        "total": 14
+      },
+      "capital": {
+        "correct": 0,
+        "total": 2
+      },
+      "definition": {
+        "correct": 1,
+        "total": 2
+      }
+    },
+    "top_outputs": [
+      [
+        "1",
+        27
+      ],
+      [
+        "18",
+        12
+      ],
+      [
+        "11",
+        6
+      ],
+      [
+        "21",
+        5
+      ],
+      [
+        "16",
+        2
+      ],
+      [
+        "13",
+        2
+      ],
+      [
+        "mexico",
+        1
+      ],
+      [
+        "22",
+        1
+      ],
+      [
+        "canberra",
+        1
+      ],
+      [
+        "a computer is an electronic device that processes data",
+        1
+      ]
+    ],
+    "records": [
+      {
+        "id": "subtract_19_18",
+        "kind": "subtraction",
+        "question": "What is the difference between 19 and 18?",
+        "expected": "1.",
+        "generated": "11.",
+        "correct": false
+      },
+      {
+        "id": "subtract_21_19",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 21 - 19?",
+        "expected": "2.",
+        "generated": "11.",
+        "correct": false
+      },
+      {
+        "id": "subtract_11_3",
+        "kind": "subtraction",
+        "question": "What is 11 - 3?",
+        "expected": "8.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_22_20",
+        "kind": "subtraction",
+        "question": "Calculate 22 minus 20.",
+        "expected": "2.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_18_16",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 18 - 16?",
+        "expected": "2.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "multiply_6_8",
+        "kind": "multiplication",
+        "question": "What is the product of 6 and 8?",
+        "expected": "48.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "subtract_9_6",
+        "kind": "subtraction",
+        "question": "Calculate 9 minus 6.",
+        "expected": "3.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "add_6_12",
+        "kind": "addition",
+        "question": "Ignore the number 99. What is 6 + 12?",
+        "expected": "18.",
+        "generated": "16.",
+        "correct": false
+      },
+      {
+        "id": "subtract_21_9",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 21 - 9?",
+        "expected": "12.",
+        "generated": "11.",
+        "correct": false
+      },
+      {
+        "id": "multiply_4_4",
+        "kind": "multiplication",
+        "question": "What is 4 times 4?",
+        "expected": "16.",
+        "generated": "13.",
+        "correct": false
+      },
+      {
+        "id": "subtract_20_12",
+        "kind": "subtraction",
+        "question": "Subtract 12 from 20.",
+        "expected": "8.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "multiply_5_8",
+        "kind": "multiplication",
+        "question": "Multiply 5 by 8.",
+        "expected": "40.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "multiply_3_6",
+        "kind": "multiplication",
+        "question": "What is 3 times 6?",
+        "expected": "18.",
+        "generated": "13.",
+        "correct": false
+      },
+      {
+        "id": "subtract_25_5",
+        "kind": "subtraction",
+        "question": "What is 25 - 5?",
+        "expected": "20.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_19_16",
+        "kind": "subtraction",
+        "question": "What is 19 - 16?",
+        "expected": "3.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "add_7_15",
+        "kind": "addition",
+        "question": "Calculate 7 plus 15.",
+        "expected": "22.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "subtract_13_1",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 13 - 1?",
+        "expected": "12.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_13_6",
+        "kind": "subtraction",
+        "question": "Subtract 6 from 13.",
+        "expected": "7.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "multiply_4_11",
+        "kind": "multiplication",
+        "question": "What is the product of 4 and 11?",
+        "expected": "44.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "subtract_23_17",
+        "kind": "subtraction",
+        "question": "Calculate 23 minus 17.",
+        "expected": "6.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_17_2",
+        "kind": "subtraction",
+        "question": "Subtract 2 from 17.",
+        "expected": "15.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_14_6",
+        "kind": "subtraction",
+        "question": "What is 14 - 6?",
+        "expected": "8.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_19_3",
+        "kind": "subtraction",
+        "question": "What is 19 - 3?",
+        "expected": "16.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "multiply_6_12",
+        "kind": "multiplication",
+        "question": "Ignore the number 99. What is 6 times 12?",
+        "expected": "72.",
+        "generated": "16.",
+        "correct": false
+      },
+      {
+        "id": "capital_greece",
+        "kind": "capital",
+        "question": "I was reading about geography. What is the capital of Greece?",
+        "expected": "Athens.",
+        "generated": "Mexico.",
+        "correct": false
+      },
+      {
+        "id": "subtract_24_15",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 24 - 15?",
+        "expected": "9.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_24_2",
+        "kind": "subtraction",
+        "question": "Subtract 2 from 24.",
+        "expected": "22.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "multiply_6_7",
+        "kind": "multiplication",
+        "question": "Calculate 6 multiplied by 7.",
+        "expected": "42.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "subtract_10_5",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 10 - 5?",
+        "expected": "5.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_13_12",
+        "kind": "subtraction",
+        "question": "Subtract 12 from 13.",
+        "expected": "1.",
+        "generated": "1.",
+        "correct": true
+      },
+      {
+        "id": "subtract_8_6",
+        "kind": "subtraction",
+        "question": "What is the difference between 8 and 6?",
+        "expected": "2.",
+        "generated": "11.",
+        "correct": false
+      },
+      {
+        "id": "subtract_23_9",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 23 - 9?",
+        "expected": "14.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "add_14_14",
+        "kind": "addition",
+        "question": "Ignore the number 99. What is 14 + 14?",
+        "expected": "28.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_11_12",
+        "kind": "addition",
+        "question": "Ignore the number 99. What is 11 + 12?",
+        "expected": "23.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "subtract_10_3",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 10 - 3?",
+        "expected": "7.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_25_15",
+        "kind": "subtraction",
+        "question": "Calculate 25 minus 15.",
+        "expected": "10.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "add_2_19",
+        "kind": "addition",
+        "question": "If you add 2 and 19, what do you get?",
+        "expected": "21.",
+        "generated": "22.",
+        "correct": false
+      },
+      {
+        "id": "capital_portugal",
+        "kind": "capital",
+        "question": "Which city is the capital of Portugal?",
+        "expected": "Lisbon.",
+        "generated": "Canberra.",
+        "correct": false
+      },
+      {
+        "id": "add_8_11",
+        "kind": "addition",
+        "question": "Calculate 8 plus 11.",
+        "expected": "19.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "subtract_14_2",
+        "kind": "subtraction",
+        "question": "Calculate 14 minus 2.",
+        "expected": "12.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "computer",
+        "kind": "definition",
+        "question": "Answer the following question clearly: What is a computer?",
+        "expected": "A computer is an electronic device that processes data.",
+        "generated": "A computer is an electronic device that processes data.",
+        "correct": true
+      },
+      {
+        "id": "add_10_19",
+        "kind": "addition",
+        "question": "Ignore the number 99. What is 10 + 19?",
+        "expected": "29.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "subtract_11_10",
+        "kind": "subtraction",
+        "question": "What is 11 - 10?",
+        "expected": "1.",
+        "generated": "1.",
+        "correct": true
+      },
+      {
+        "id": "subtract_18_13",
+        "kind": "subtraction",
+        "question": "Calculate 18 minus 13.",
+        "expected": "5.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "add_8_8",
+        "kind": "addition",
+        "question": "Ignore the number 99. What is 8 + 8?",
+        "expected": "16.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_3_16",
+        "kind": "addition",
+        "question": "Calculate 3 plus 16.",
+        "expected": "19.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_4_16",
+        "kind": "addition",
+        "question": "Calculate 4 plus 16.",
+        "expected": "20.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "subtract_15_11",
+        "kind": "subtraction",
+        "question": "What is the difference between 15 and 11?",
+        "expected": "4.",
+        "generated": "11.",
+        "correct": false
+      },
+      {
+        "id": "add_18_18",
+        "kind": "addition",
+        "question": "What is 18 + 18?",
+        "expected": "36.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "subtract_12_10",
+        "kind": "subtraction",
+        "question": "Subtract 10 from 12.",
+        "expected": "2.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "multiply_9_10",
+        "kind": "multiplication",
+        "question": "What is the product of 9 and 10?",
+        "expected": "90.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "add_20_20",
+        "kind": "addition",
+        "question": "What is 20 + 20?",
+        "expected": "40.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "internet",
+        "kind": "definition",
+        "question": "Answer the following question clearly: What is the internet?",
+        "expected": "A global network of connected computers.",
+        "generated": "The internet is the difference between two and one.",
+        "correct": false
+      },
+      {
+        "id": "add_6_10",
+        "kind": "addition",
+        "question": "Calculate 6 plus 10.",
+        "expected": "16.",
+        "generated": "18.",
+        "correct": false
+      },
+      {
+        "id": "subtract_23_1",
+        "kind": "subtraction",
+        "question": "What is 23 - 1?",
+        "expected": "22.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "subtract_22_8",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 22 - 8?",
+        "expected": "14.",
+        "generated": "11.",
+        "correct": false
+      },
+      {
+        "id": "subtract_13_5",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 13 - 5?",
+        "expected": "8.",
+        "generated": "1.",
+        "correct": false
+      },
+      {
+        "id": "add_12_15",
+        "kind": "addition",
+        "question": "What is 12 + 15?",
+        "expected": "27.",
+        "generated": "21.",
+        "correct": false
+      },
+      {
+        "id": "subtract_25_12",
+        "kind": "subtraction",
+        "question": "Ignore the number 99. What is 25 - 12?",
+        "expected": "13.",
+        "generated": "1.",
+        "correct": false
+      }
+    ]
+  },
+  "tokenizer_number_audit": {
+    "1": {
+      "ids": [
+        20
+      ],
+      "decoded": "1"
+    },
+    "6": {
+      "ids": [
+        25
+      ],
+      "decoded": "6"
+    },
+    "11": {
+      "ids": [
+        20,
+        20
+      ],
+      "decoded": "11"
+    },
+    "18": {
+      "ids": [
+        20,
+        27
+      ],
+      "decoded": "18"
+    },
+    "21": {
+      "ids": [
+        21,
+        20
+      ],
+      "decoded": "21"
+    },
+    "25": {
+      "ids": [
+        21,
+        24
+      ],
+      "decoded": "25"
+    },
+    "48": {
+      "ids": [
+        23,
+        27
+      ],
+      "decoded": "48"
+    },
+    "99": {
+      "ids": [
+        28,
+        28
+      ],
+      "decoded": "99"
+    }
+  },
+  "checkpoint_status": {
+    "Phase 4 Expanded": {
+      "exists": true,
+      "size_mb": 208.65,
+      "path": "/content/drive/MyDrive/GRAC/GRAC-LM-v0.4/phase4/GRAC-LM-v0.4-expanded-best.pt"
+    },
+    "Phase 4B": {
+      "exists": true,
+      "size_mb": 208.65,
+      "path": "/content/drive/MyDrive/GRAC/GRAC-LM-v0.4/phase4b/GRAC-LM-v0.4-phase4b-step300.pt"
+    },
+    "Phase 4C": {
+      "exists": true,
+      "size_mb": 208.65,
+      "path": "/content/drive/MyDrive/GRAC/GRAC-LM-v0.4/phase4c/GRAC-LM-v0.4-phase4c-best.pt"
+    },
+    "Phase 4D": {
+      "exists": true,
+      "size_mb": 208.65,
+      "path": "/content/drive/MyDrive/GRAC/GRAC-LM-v0.4/phase4d/GRAC-LM-v0.4-phase4d-best.pt"
+    },
+    "Phase 4D resume": {
+      "exists": true,
+      "size_mb": 625.97,
+      "path": "/content/drive/MyDrive/GRAC/GRAC-LM-v0.4/phase4d/GRAC-LM-v0.4-phase4d-resume.pt"
+    }
+  },
+  "next_steps": [
+    "Review training versus held-out accuracy.",
+    "Determine whether arithmetic failure is underlearning or memorization.",
+    "Review numeric tokenization.",
+    "Design Phase 4E without starting from scratch.",
+    "Preserve the Phase 4C and Phase 4D checkpoints."
+  ]
+}
